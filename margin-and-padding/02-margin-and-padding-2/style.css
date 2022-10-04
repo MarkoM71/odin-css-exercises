@@ -7,21 +7,33 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px; /*Correct*/
 }
 
 .title {
   background: #e3f4ff;
+  margin-top: 0px; /*Didn't put his in*/
+  margin-bottom: 8px; /*Correct*/
+  font-size: 16px; /*Correct*/
+  padding: 8px; /*Correct*/
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px; /*Correct*/
+  padding: 16px 8px; /*Correct*/
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px; /*Correct*/
+  text-align: center; /*Correct*/
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block; /*Correct*/
+  margin: auto; /*Correct*/
+  padding: 8px 24px; /*Correct*/
 }
