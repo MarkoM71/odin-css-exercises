@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  text-align: center;
 }
 
 img {
@@ -16,6 +17,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 6px;
+  
 }
 
 input {
@@ -26,73 +29,42 @@ input {
   margin-bottom: 16px;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-button {
-  padding: 8px 16px;
-}
-
-.content {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-a {
-  color: #666;
-  text-decoration: none;
-}
-
 .header,
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 1px;
+  
+
 }
 
 .footer {
-  background: #eee;
+  background-color: #eeeeee;
+  margin: 10px;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 16px
-}
-/*
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.left-links {
-  display: flex;
-  gap: 25px;
-  list-style: none;
-}
-
+.left-links,
 .right-links {
   display: flex;
-  gap: 25px;
-  list-style: none;
+  list-style-type: none;
+  gap: 20px;
+  padding: 10px;
+  
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-  background-color: #eeeeee;
+a {
+  text-decoration: none;
+  color: gray;
 }
 
 .content {
-  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  margin: 10px;
+  padding: 100px;
+  
 }
-*/
+ 
